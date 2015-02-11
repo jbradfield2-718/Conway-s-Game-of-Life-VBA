@@ -1,7 +1,7 @@
 Simple Conway's Game of Life in VBA
 ========================
 
-Practice to help learn VBA.
+Practice to help improve skills using VBA.
 
 Macro currently run's Conway's game of Life on 52 x 40 array.
 Game board 'wraps' around edges so cells at edges are adjacent to 
