@@ -17,6 +17,8 @@ Sub Seed()
 Freeze_screen
 Workbooks("Game of Life.xlsm").Sheets("Previous Array").Range("a1:az40").Name = "last_array"
 Workbooks("Game of Life.xlsm").Sheets("Board").Range("a1:az40").Name = "board"
+Range("board").NumberFormat = "Custom"
+Range("board").NumberFormat = ";;;"
 Refresh
 Sheets("Previous Array").Select
 Range("last_array").Select
